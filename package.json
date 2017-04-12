@@ -1,0 +1,25 @@
+{
+  "name": "scrappy_css",
+  "version": "1.0.0",
+  "description": "This assignment was alongside the Redux tutorial, to assure we practiced CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptRat-tiy/scrappycss-wk7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptRat-tiy/scrappycss-wk7/issues"
+  },
+  "homepage": "https://github.com/CaptRat-tiy/scrappycss-wk7#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1"
+  }
+}
