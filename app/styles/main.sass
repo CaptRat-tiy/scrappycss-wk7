@@ -1,8 +1,19 @@
 .sidebar
   background-color: lightsalmon
+  // grid-item-start: 15%
 
+// .sidebar:nth-child(2){
+//   background-color: darkgreen
+// }
 .articles
   background-color: darkseagreen
+  width: auto
+
+header h3
+  float: left
+
+time
+  float: right
 
 header img
   width: 2em
@@ -11,10 +22,36 @@ header img
 header
   background-color: darkgreen
 
+article header
+  background-color: darkgreen
+  border: 1px white solid
+  border-top-left-radius: 110px
+body
+  display: grid
+  grid-template-rows: 5% auto 5%
+
+footer
+  background-color: blue
+  height: 3em
+
+footer img
+    width: 2em
+    display: inline
+
+main
+  display: grid
+  grid-template-columns: 15% auto 15%
+
+section
+  display: grid
+  grid-template-rows: 25% 25% 25% 25%
+  grid-gap: 1em
+  background-color: white
+  color: black
+
 nav ul
   float: right
   margin: 0 .5em
-
 
 li
   display: inline
